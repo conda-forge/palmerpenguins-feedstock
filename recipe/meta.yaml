@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -35,8 +35,8 @@ test:
 about:
   home: https://github.com/mcnakhaee/palmerpenguins
   summary: A python package for the palmer penguins dataset
-  license: CC0-1.0
-  license_file: LICENSE.txt
+  license: MIT
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
