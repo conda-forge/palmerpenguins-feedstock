@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/palmerpenguins-
 
 Home: https://github.com/mcnakhaee/palmerpenguins
 
-Package license: CC0-1.0
+Package license: MIT
 
 Summary: A python package for the palmer penguins dataset
 
