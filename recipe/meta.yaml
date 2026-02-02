@@ -1,5 +1,5 @@
 {% set name = "palmerpenguins" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/palmerpenguins-{{ version }}.tar.gz
-  sha256: d04d9064930e053fb0805261fe2aa26b4581fdabacaa54d393ddd65bb93bbaf2
+  sha256: 9b5193e5c49a7f697ab47635aa3cea036cfc04ae66af992386e86ba89e7456ec
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 2
+  number: 0
 
 requirements:
   host:
